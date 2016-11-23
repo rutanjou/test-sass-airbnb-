@@ -1,18 +1,24 @@
+$black: #000000;
 .experiences{
+	display: flex;
+	justify-content: space-around;
 
-	.experienceA{
-	text-align: center;
-	p{
-		width: 26%;
-	}
-}
-}
-img{
-	margin: 8px;
+
 }
 .logements{
-	text-align:center;
-	p{
-		width: 28%;
+	display: flex;
+	justify-content: space-around;
+}
+.destinations{
+	display: flex;
+	justify-content: space-around;
+	a{
+		text-decoration: none;
+		color: $black;
 	}
+
+}
+.bas{
+	display:flex;
+	border: 2px solid #DCDCDC;
 }
