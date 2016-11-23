@@ -1,0 +1,65 @@
+.menuHaut {
+  background-image: url("http://lorempicsum.com/nemo/1000/500/4");
+  height: 500px;
+  background-size: cover; }
+  .menuHaut ul {
+    float: right;
+    text-align: right; }
+  .menuHaut li {
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px; }
+  .menuHaut a {
+    list-align: none;
+    color: #FFFFFF;
+    text-decoration: none; }
+
+.form {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center; }
+  .form .ou {
+    display: flex;
+    outline: 2px solid grey;
+    height: 4em;
+    flex-direction: column; }
+  .form .quand {
+    display: flex;
+    outline: 2px solid grey;
+    height: 4em;
+    flex-direction: column;
+    padding-left: 10px; }
+  .form .voyage {
+    border: none;
+    outline: 2px solid grey;
+    height: 4em;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .form input {
+    border: none;
+    padding-left: 10px; }
+  .form label {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px; }
+  .form button {
+    color: #FFFFFF;
+    background-color: #F08080;
+    font-size: 5px solid; }
+
+.experiences .experienceA {
+  text-align: center; }
+  .experiences .experienceA p {
+    width: 26%; }
+
+img {
+  margin: 8px; }
+
+.logements {
+  text-align: center; }
+  .logements p {
+    width: 28%; }
+
+/*# sourceMappingURL=style.css.map */
