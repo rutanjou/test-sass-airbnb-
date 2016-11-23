@@ -31,7 +31,6 @@
     flex-direction: column;
     padding-left: 10px; }
   .form .voyage {
-    border: none;
     outline: 2px solid grey;
     height: 4em;
     flex-direction: column;
@@ -47,19 +46,26 @@
   .form button {
     color: #FFFFFF;
     background-color: #F08080;
-    font-size: 5px solid; }
+    font-size: 15px;
+    height: 30px; }
 
-.experiences .experienceA {
-  text-align: center; }
-  .experiences .experienceA p {
-    width: 26%; }
-
-img {
-  margin: 8px; }
+.experiences {
+  display: flex;
+  justify-content: space-around; }
 
 .logements {
-  text-align: center; }
-  .logements p {
-    width: 28%; }
+  display: flex;
+  justify-content: space-around; }
+
+.destinations {
+  display: flex;
+  justify-content: space-around; }
+  .destinations a {
+    text-decoration: none;
+    color: #000000; }
+
+.bas {
+  display: flex;
+  border: 2px solid #DCDCDC; }
 
 /*# sourceMappingURL=style.css.map */
