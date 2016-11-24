@@ -18,7 +18,19 @@ $black: #000000;
 	}
 
 }
-.bas{
-	display:flex;
+footer{
+	display: flex;
 	border: 2px solid #DCDCDC;
+	.langue{
+		display: inline-block;
+	}
+
+		a{   
+			list-align:none;
+			text-decoration: none;
+			color: grey;	
+		}
+	.icones{
+		display: flex;
+	}
 }
