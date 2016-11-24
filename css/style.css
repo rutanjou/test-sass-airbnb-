@@ -64,8 +64,16 @@
     text-decoration: none;
     color: #000000; }
 
-.bas {
+footer {
   display: flex;
   border: 2px solid #DCDCDC; }
+  footer .langue {
+    display: inline-block; }
+  footer a {
+    list-align: none;
+    text-decoration: none;
+    color: grey; }
+  footer .icones {
+    display: flex; }
 
 /*# sourceMappingURL=style.css.map */
