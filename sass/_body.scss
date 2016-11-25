@@ -1,8 +1,8 @@
 $black: #000000;
 $font-size: 20px;
 body{
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 20%;
+	
 .experiences{
 	display: flex;
 	justify-content: space-around;
@@ -33,6 +33,7 @@ footer-top{
 	color: grey;
 	}
 }
+
 footer-bottom{
 	display:flex;
 	justify-content: space-around;
