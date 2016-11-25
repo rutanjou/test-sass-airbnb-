@@ -1,4 +1,8 @@
 $black: #000000;
+$font-size: 20px;
+body{
+	margin-left: 10px;
+	margin-right: 10px;
 .experiences{
 	display: flex;
 	justify-content: space-around;
@@ -19,18 +23,27 @@ $black: #000000;
 
 }
 footer{
+	border: grey solid 1px;
+footer-top{
 	display: flex;
-	border: 2px solid #DCDCDC;
-	.langue{
-		display: inline-block;
+	justify-content: space-around;
+	
+	a{
+	text-decoration: none;
+	color: grey;
 	}
-
-		a{   
-			list-align:none;
-			text-decoration: none;
-			color: grey;	
-		}
-	.icones{
-		display: flex;
+}
+footer-bottom{
+	display:flex;
+	justify-content: space-around;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	margin-top:30px;
+	
+	a{
+	text-decoration: none;	
+	color: grey;
 	}
+}
+}
 }

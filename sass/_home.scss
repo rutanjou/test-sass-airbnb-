@@ -1,9 +1,10 @@
 $white: #FFFFFF;
 $pink: #F08080;
+$font-size: 20px;
 
 .menuHaut{
-	background-image: url('http://lorempicsum.com/nemo/1000/500/4');
-	height : 500px;
+	background-image: url('http://lorempicsum.com/nemo/700/300/3');
+	height : 35em;
 	background-size: cover;
 
 	ul{
@@ -15,62 +16,74 @@ $pink: #F08080;
 	}
 	li{
 		display: inline-block;
-		padding: 30px;
-		font-size: 20px;
+		padding: 1em;
+		font-size: $font-size;
 	}
 	a{
 		list-align:none;
-
 		color:$white;
 		text-decoration:none;	
 		
 	}
 
 }
+@media screen and (max-device-width: 800px) {
+
+	.haut{
+		display: none;
+	}
+
+}
+@media screen and (min-device-width: 801px) {
+	.petitMenu li {
+		display: none;
+	}
+}
 .form{
 	display: flex;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 	justify-content: center;
+	height: 5em;
 
 	
 	.ou{
 		display: flex;
-		outline: 2px solid grey;
-		height: 4em;
+		outline: 0.1em solid grey;
+		height: 5em;
 		flex-direction: column;
 	}
 
 	.quand{
 		display: flex;
-		outline: 2px solid grey;
-		height: 4em;
+		outline: 0.1em solid grey;
+		height: 5em;
 		flex-direction: column;
-		padding-left: 10px;
+		padding-left: 0.5em;
 	}
 	.voyage{
-		outline: 2px solid grey;
-		height: 4em;
+		outline: 0.1em solid grey;
+		height: 5em;
 		flex-direction: column;
-		padding-left: 10px;
-		padding-right: 10px;	
+		padding-left: 0.5em;
+		padding-right: 0.5em;	
 	}
 	input{
 		border:none;
-		padding-left: 10px;
+		padding-left:  0.5em;
 
 	}
 	label{
 		display: block;
-		padding-top:10px;
-		padding-left: 10px;
+		padding-top: 0.5em;
+		padding-left:0.5em;
 	}
 
 	button{
 		color: $white ;
 		background-color:$pink;
-		font-size: 15px;
-		height: 30px;
+		font-size: $font-size;
+		height: 1.5em;
 	}
 
 }
