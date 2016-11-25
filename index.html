@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<meta charset="UTF-8">
@@ -10,7 +10,7 @@
 <body>
 
 	<div class="menuHaut">
-		<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSa1HYVA2PvaAF-cVCCu1Rs3WBhkLHKSSQk3j-u95bePu0AoJIXQ">
+	<i class="fa fa-bars fa-2x" id='icone'aria-hidden="true"></i>
 		<ul>
 			<li><a href="#"> Devenez hôte</a> </li>	
 			<li><a href="#"> Aide</a></li>
@@ -18,17 +18,30 @@
 			<li><a href="#"> Connexion </a></li>
 		</ul>
 	</div>
+	<div class="petitMenu">
+	
+	<ul>
+		<li><a href="#">Page d'accueil</a></li>
+		<li><a href="#">Télécharger l'application</a></li>
+		<li><a href="#">Inscription</a></li>
+		<li><a href="#">Connexion</a></li>
+		<li><a href="#">Aide</a></li>
+	</ul>
+	</div>
 	<div class="form">
 		<div class="ou">
 			<label>Où</label>
+			<br>
 			<input type="text" name="ou" id="ou" placeholder="Destination, ville, adresse">	
 		</div>
 		<div class="quand">
 			<label>Quand</label>
+			<br>
 			<input type="text" name="quand" id="quand" placeholder="Arrivée --> Départ">
 		</div>
 		<div class="voyage">
 			<label>Voyageurs</label>
+			<br>
 			<select>1 voyageur
 				<option>1 voyageur</option>
 				<option>2 voyageur</option>
@@ -106,65 +119,73 @@
 			<h4><a href="#">Le Cap</a></h4>
 		</div>
 	</div>
+	<br>
+	<br>
 	<footer>
-		<div class="langue">
-			<select>
-				<option>Français</option>
-				<option>English</option>
-				<option>Espaniol</option>
-				<option>中文</option>
-				<option>日本語</option>
-				<option>Italiano</option>
-			</select>
-			<select>
-				<option>EUR</option>
-				<option>CNY</option>
-				<option>JPY</option>
-				<option>BRL</option>
-				<option>CAD</option>
-				<option>HKD</option>
-			</select>
-		</div>
-		<div class="inc">
-			<img src="airbnb.png">
-			<span>© Airbnb, Inc.</span>
-		</div>
-		<div class="airbnb">
-			<h3>Airbnb</h3>
-			<ul>
-				<li><a href="#">À propos</a> </li>
-				<li><a href="#">Carrières</a></li>
-				<li><a href="#">Press</a></li>
-				<li><a href="#">Règles</a></li>
-				<li><a href="#">Aide</a></li>
-			</ul>
-		</div>
-		<div class="decouvrir">
-			<h3>Découvrir</h3>
-			<ul>
-				<li><a href="#">Confiance et sécurité</a></li>
-				<li><a href="#">Parrainer un ami</a></li>
-				<li><a href="#">Airbnb Action</a></li>
-				<li><a href="#">Voyage d'affaires</a></li>
-				<li><a href="#">Guides</a></li>
-			</ul>
-		</div>
-		<div class="hebergement">
-			<h3>Hébergement</h3>
-			<ul>
-				<li><a href="#">Pourquoi être hôte</a></li>
-				<li><a href="#">Hospitalité</a></li>
-				<li><a href="#">Hébergement responsable</a></li>
-			</ul>
-		</div>
-		
-		<div class="icones">
-			<span><a href="#">Conditions générales et confidentialité</a></span>
-			<span><a href="#">Plan du site</a></span>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
-		</div>
+		<footer-top>
+			<div class="langue">
+				<select>
+					<option>Français</option>
+					<option>English</option>
+					<option>Espaniol</option>
+					<option>中文</option>
+					<option>日本語</option>
+					<option>Italiano</option>
+				</select>
+				</div>
+				<div class="lettre">
+				<select>
+					<option>EUR</option>
+					<option>CNY</option>
+					<option>JPY</option>
+					<option>BRL</option>
+					<option>CAD</option>
+					<option>HKD</option>
+				</select>
+			</div>
+			<div class="airbnb">
+				<h3>Airbnb</h3>
+				<ul>
+					<li><a href="#">À propos</a> </li>
+					<li><a href="#">Carrières</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Règles</a></li>
+					<li><a href="#">Aide</a></li>
+				</ul>
+			</div>
+			<div class="decouvrir">
+				<h3>Découvrir</h3>
+				<ul>
+					<li><a href="#">Confiance et sécurité</a></li>
+					<li><a href="#">Parrainer un ami</a></li>
+					<li><a href="#">Airbnb Action</a></li>
+					<li><a href="#">Voyage d'affaires</a></li>
+					<li><a href="#">Guides</a></li>
+				</ul>
+			</div>
+			<div class="hebergement">
+				<h3>Hébergement</h3>
+				<ul>
+					<li><a href="#">Pourquoi être hôte</a></li>
+					<li><a href="#">Hospitalité</a></li>
+					<li><a href="#">Hébergement responsable</a></li>
+				</ul>
+			</div>
+		</footer-top>
+		<hr></hr>
+		<footer-bottom>
+			<div class="inc">
+				<img src="">
+				<span>© Airbnb, Inc.</span>
+			</div>
+			<div class="icones">
+				<a href="#">Conditions générales et confidentialité</a>
+				<a href="#">Plan du site</a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+			</div>
+		</footer-bottom>
 	</footer>
 </body>
 </html>
